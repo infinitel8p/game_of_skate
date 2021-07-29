@@ -1,10 +1,10 @@
 [app]
 
 # (str) Title of your application
-title = Exchange Calculator
+title = Game of SKATE
 
 # (str) Package name
-package.name = forex_exchange_calc
+package.name = game_of_skate
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.ferrara
