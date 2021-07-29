@@ -50,7 +50,7 @@ tricklist = [
 ["Fakie Frontside Pop Shove-it","Fakie"],
 ["Fakie Hardflip","Fakie"],
 ["Fakie Heelflip","Fakie"],
-["Fakie Inward Heelflip",],
+["Fakie Inward Heelflip","Fakie"],
 ["Fakie Kickflip","Fakie"],
 ["Fakie Varial Heelflip","Fakie"],
 ["Fakie Varial Kickflip","Fakie"],

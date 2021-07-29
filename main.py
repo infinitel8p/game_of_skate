@@ -127,7 +127,7 @@ class SkateApp(MDApp):
         self.screen.add_widget(Image
             (source = "logo.png",
             pos_hint = {"center_x" : 0.5, "center_y" : 0.7},
-            size_hint = (0.7, 0.7)
+            size_hint = (0.35, 0.35)
             )
         )
 
@@ -135,7 +135,7 @@ class SkateApp(MDApp):
         #trick name
         self.trick_label = MDLabel(
             theme_text_color = "Primary",
-            font_style = "H5",
+            font_style = "H3",
             font_size = 15,
             text = "",
             halign = "center",
@@ -150,7 +150,8 @@ class SkateApp(MDApp):
             text = "",
             halign = "center",
             pos_hint = {"center_x" : 0.5, "center_y" : 0.45},
-            theme_text_color = "Secondary"
+            theme_text_color = "Secondary",
+            font_style = "H6"
         )
         self.screen.add_widget(self.stance_label)
 
@@ -159,17 +160,18 @@ class SkateApp(MDApp):
             halign = "center",
             pos_hint = {"center_x" : 0.5, "center_y" : 0.3},
             theme_text_color = "Primary",
-            font_style = "H6"
+            font_style = "H5"
         )
         self.screen.add_widget(self.letters_label)
 
 
         #new trick button
         self.new_trick_button = MDFillRoundFlatButton(
-            text = "New Trick",
-            #font_size = 17,
+            text = "   New Trick   ",
+            font_size = 30,
             pos_hint = {"center_x" : 0.5, "center_y" : 0.15},
-            on_press = self.display_trick
+            on_press = self.display_trick,
+            size_hint = (None, None),
         )
         self.screen.add_widget(self.new_trick_button)
 
