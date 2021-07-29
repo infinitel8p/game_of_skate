@@ -135,7 +135,7 @@ class SkateApp(MDApp):
         #trick name
         self.trick_label = MDLabel(
             theme_text_color = "Primary",
-            font_style = "H3",
+            font_style = "H4",
             font_size = 15,
             text = "",
             halign = "center",
@@ -178,7 +178,7 @@ class SkateApp(MDApp):
         #new game button
         self.new_game_button = MDFillRoundFlatButton(
             text = "New Game",
-            #font_size = 17,
+            font_size = 30,
             pos_hint = {"center_x" : 0.5, "center_y" : 0.15},
             on_press = self.reset_app)
 
