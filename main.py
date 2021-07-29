@@ -127,7 +127,7 @@ class SkateApp(MDApp):
         self.screen.add_widget(Image
             (source = "logo.png",
             pos_hint = {"center_x" : 0.5, "center_y" : 0.7},
-            size_hint = (0.35, 0.35)
+            size_hint = (0.7, 0.7)
             )
         )
 
